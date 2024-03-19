@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  color: white;
+  height: 80vh;
+}
+.expenses-tracker {
+  width: 80%;
+  margin: 50px auto;
+}
+h1, h2 ,h3{
+  text-align: center;
+}
+select{
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="number"] {
+  width: 28%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  width: 20%;
+  padding: 10px;
+  background-color: #095bc7;
+  color: rgb(247, 244, 244);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 4px 4px;
+  font-size: medium;
+}
+.add-expense {
+  margin-bottom: 20px;
+  background-color: rgb(46, 45, 45);
+  padding: 8px 20px;
+  font-size: large;
+  margin: 4px 2px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #656666;
+  text-align: left;
+}
+td.actions{
+  white-space: nowrap;
+}
+.actions button{
+  margin-right: 5px; /*Add space between button*/
+  display: inline-block;
+}
+.actions button.edit{
+  background-color: rgb(17, 122, 17);
+  color: white;
+}
+.actions button.delete{
+  background-color: rgb(253, 27, 27);
+  color: white;
+}
+th {
+  background-color: #390452;
+  color: rgb(245, 244, 244);
+}

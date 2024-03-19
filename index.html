@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expenses Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="expenses-tracker">
+    <h1>Expenses Tracker</h1>
+    <div class="add-expense">
+      <label>Product : </label><br>
+      <!--<input type="text" id="expense-product" placeholder="Expense product">-->
+      <select type="text" id="expense-product" placeholder="Expense product">
+        <option>--select category--</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Footwear">Footwear</option>
+        <option value="Personal care">Personal care</option>
+        <option value="Food">Food</option>
+        <option value="Cosmetics">Cosmetics</option>
+        <option value="Cool Drinks">Cool Drinks</option>
+        <option value="Furniture">Furniture</option>
+        <option value="Laundry Detergent">Laundry Detergent</option>
+        <option value="Jewellery">Jewellery</option>
+        <option value="Books and media">Books and media</option>
+        <option value="Jeans pant">Jeans pant</option>
+        <option value="Other">Other</option>
+     </select> <br>
+
+      <label>Amount : </label><br>
+      <input type="number" id="expense-amount" placeholder="Expense amount">
+      <br>
+      <button onclick="addExpense()">Add Expense</button>
+    </div>
+    <div class="expenses-list">
+      <h2>Expenses List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Amount</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="expenses"></tbody>
+      </table>
+    </div>
+    <div class="total-expenses">
+    <!----<h2>Total Expenses</h2>
+      <p id="total">0</p>-->
+      <h3>Total Expenses: <span id="total">0</span></h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
