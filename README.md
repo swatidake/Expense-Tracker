@@ -33,6 +33,3 @@ The Expenses Tracker is a simple web app where you can add, edit, and delete you
 - CSS
 - JavaScript
 
-## License
-
-This Expenses Tracker project is open-source and available under the MIT License. You can find more details in the [LICENSE](LICENSE) file.
